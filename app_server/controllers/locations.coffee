@@ -5,4 +5,4 @@ module.exports.locationInfo = (req, res) ->
 	res.render('location-info', {title: 'Location info'})
 
 module.exports.addReview = (req, res)	 ->
-	res.render('index', {title: 'Add review'})
+	res.render('location-review-form', {title: 'Add review'})

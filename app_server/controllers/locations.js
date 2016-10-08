@@ -13,7 +13,7 @@
   };
 
   module.exports.addReview = function(req, res) {
-    return res.render('index', {
+    return res.render('location-review-form', {
       title: 'Add review'
     });
   };
